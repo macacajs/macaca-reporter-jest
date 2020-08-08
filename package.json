@@ -1,0 +1,39 @@
+{
+  "name": "macaca-reporter-jest",
+  "version": "1.0.0",
+  "description": "Macaca reporter used for jest.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macacajs/macaca-reporter-jest.git"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js"
+  ],
+  "dependencies": {
+    "macaca-reporter": "1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-mocha": "^5.0.0",
+    "git-contributor": "*",
+    "husky": "*",
+    "jest": "^26.2.2",
+    "mocha": "*",
+    "nyc": "*"
+  },
+  "scripts": {
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "lint": "eslint . --fix",
+    "contributor": "git-contributor",
+    "jest": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "license": "MIT"
+}
