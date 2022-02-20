@@ -1,6 +1,6 @@
 {
   "name": "macaca-reporter-jest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Macaca reporter used for jest.",
   "main": "index.js",
   "repository": {
