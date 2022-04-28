@@ -1,15 +1,15 @@
 # macaca-reporter-jest
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![CI][CI-image]][CI-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/macaca-reporter-jest.svg
 [npm-url]: https://npmjs.org/package/macaca-reporter-jest
-[travis-image]: https://img.shields.io/travis/macacajs/macaca-reporter-jest.svg
-[travis-url]: https://travis-ci.org/macacajs/macaca-reporter-jest
+[CI-image]: https://github.com/macacajs/macaca-reporter-jest/actions/workflows/ci.yml/badge.svg
+[CI-url]: https://github.com/macacajs/macaca-reporter-jest/actions/workflows/ci.yml
 [coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-reporter-jest.svg
 [coveralls-url]: https://coveralls.io/r/macacajs/macaca-reporter-jest?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg
