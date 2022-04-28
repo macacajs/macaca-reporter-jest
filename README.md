@@ -2,7 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![CI][CI-image]][CI-url]
-[![Test coverage][coveralls-image]][coveralls-url]
+[![Test coverage][codecov-image]][codecov-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
@@ -10,8 +10,8 @@
 [npm-url]: https://npmjs.org/package/macaca-reporter-jest
 [CI-image]: https://github.com/macacajs/macaca-reporter-jest/actions/workflows/ci.yml/badge.svg
 [CI-url]: https://github.com/macacajs/macaca-reporter-jest/actions/workflows/ci.yml
-[coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-reporter-jest.svg
-[coveralls-url]: https://coveralls.io/r/macacajs/macaca-reporter-jest?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/macacajs/macaca-reporter-jest.svg?logo=codecov
+[codecov-url]: https://codecov.io/gh/macacajs/macaca-reporter-jest
 [node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/macaca-reporter-jest.svg
